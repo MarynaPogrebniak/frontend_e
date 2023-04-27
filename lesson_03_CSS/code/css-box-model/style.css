@@ -1,0 +1,87 @@
+.red-box {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  padding: 50px;
+  /* 400 - блок стал width + padding со всех сторон */
+  /* выровнять текст по центру */
+  text-align: center;
+}
+
+.green-box {
+  background-color: green;
+  margin: 15px;
+  padding: 40px;
+  width: 250px;
+  height: 250px;
+  /* закргуление по углам */
+  border-radius: 10px;
+}
+
+.yellow-box {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  margin-left: 50px;
+  padding: 75px;
+  /* толщина бордера, сплошная заливка solid и цвет */
+  border: 3px solid red;
+}
+
+.blue-circle {
+  background-color: lightblue;
+  margin: 30px;
+  padding: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* по центру страницы */
+  margin: 0 auto;
+}
+
+.black-box {
+  background-color: black;
+  color: pink;
+  padding: 50px;
+  font-size: 22px;
+  width: 300px;
+  height: 300px;
+  /* все сразу */
+  margin: 50px;
+  /* вверх низ и стороны */
+  margin: 50px 30px;
+  /* верх право-лево низ */
+  margin: 50px 30px 20px;
+  /* верх право низ лево */
+  margin: 50px 40px 30px 20px;
+  /* с левого верзнего угла по часовой стрелке */
+  border-radius: 60px 40px 20px;
+}
+
+.triangle {
+  background-color: antiquewhite;
+  border: 70px solid transparent;
+  border-top: 100px solid #720b68;
+  width: 0px;
+}
+
+.triangle-down {
+  /* поднимется выше */
+  margin-top: -50px;
+  border: 70px solid transparent;
+  border-bottom: 100px solid #29648b;
+  width: 0px;
+  transform: rotate(340deg);
+  /* transform: rotate(-0.10turn); */
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.orange {
+  text-align: center;
+  color: rgb(95, 69, 5);
+}
