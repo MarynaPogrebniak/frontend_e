@@ -1,0 +1,28 @@
+h1 {
+    color: green;
+}
+span {
+    color: rosybrown;
+    font-weight: bold;
+}
+
+div {
+    background-color: lightsteelblue;
+}
+
+/* селекторы по id */
+#special{
+    font-style: italic;
+    color: blue;
+}
+
+#red-box {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+/* селектор по class */
+
+.green-text {
+    color: green;
+}
